@@ -26,3 +26,101 @@ body{
 footer{
 	text-align: center;
 }
+
+.jumbotron{
+	background: url(../images/dan.jpg) center;
+	height: 500px;
+	color: white;
+	overflow: none;
+	background-repeat: no-repeat;
+}
+
+.jumbotron p{
+	color: grey;
+}
+
+#camera{
+	width: 80%
+}
+
+#abt{
+	text-align: center;
+}
+
+.abtp{
+	font-size: 1.5em;
+}
+
+#progp{
+	font-size: 2.5em;
+    margin-top: 15px;
+}
+
+.ts{
+	margin-top: 30px;
+}
+
+.progress{
+	height: auto;
+}
+
+
+
+
+
+
+
+
+@media(min-width: 1200px) {
+
+	
+	
+
+}
+
+@media(max-width: 991px) {
+	.jumbotron p{
+	width: 30%;
+	}
+
+	#camera {
+	margin-left: 15%;
+}
+
+.abtp{
+	padding: 5%;
+}
+
+}
+
+@media(min-width: 768px) and (max-width: 990px) {
+	
+.jumbotron p{
+	width: 30%;
+	}
+
+}
+
+@media(max-width: 768px) {
+	
+	.jumbotron p{
+	width: 50%;
+	}
+
+	#camera {
+	width: 60%;
+	}
+
+}
+
+@media(max-width: 500px) {
+	
+.jumbotron p{
+	width: 70%;
+	}
+
+}
+
+
+
+
