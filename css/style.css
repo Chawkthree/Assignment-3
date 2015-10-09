@@ -1,0 +1,25 @@
+body {
+  overflow-y: scroll;
+  overflow-x: hidden; }
+
+.navbar {
+  margin-bottom: 0px;
+  border-bottom: 2px solid grey;
+  border-radius: 0px; }
+
+#intro {
+  font-size: 3em;
+  text-align: center;
+  padding: 4%; }
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%; }
+
+footer {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
