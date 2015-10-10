@@ -54,6 +54,9 @@ footer {
 .topr {
   margin-top: 20px; }
 
+.pad {
+  padding: 5%; }
+
 @media (max-width: 991px) {
   .jumbotron p {
     width: 30%; }
